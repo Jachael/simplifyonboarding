@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PubMatic for Small Pubs</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<style>font-family: 'Roboto', sans-serif;</style>
+</head>
+<body>
+	<div id="pagewrap">
+		<div id="menu-bar">
+			<img src="pmlogo.png" alt="pmlogo" style="width:130px;height:56px;padding-left:20px;">
+		</div> <!-- end of menu -->
+
+		<div id="onboarding-wrap">
+			<div id="spacer"></div>
+			<div id="notification"></div>
+			<br>
+			<div id="contact-details-header"><p></p></div>
+			<div id="contact-details-wrap">
+					<div id="contact-details-form">
+					<div class="form-style-2">
+						<div class="form-style-2-heading">Please Provide Your Information</div>
+						<form action="" method="post">
+						<label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+						<label for="field2"><span>Company <span class="required">*</span></span><input type="text" class="input-field" name="field6" value="" /></label>
+						<label for="field6"><span>Email <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
+						<label><span>Telephone</span><input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  /></label>
+						<label for="field4"><span>Region</span><select name="field4" class="select-field">
+						<option value="EMEA">EMEA</option>
+						<option value="NTAM">NTAM</option>
+						<option value="APAC">APAC</option>
+						<option value="LTAM">LTAM</option>
+						</select></label>
+						</form>
+					</div>
+			</div> <!-- details wrap -->
+			<div id="inventory-upload">
+				<div class="form-style-2">
+						<div class="form-style-2-heading">Tell Us About Your Inventory</div>
+						<form action="" method="post">
+						<label for="field2"><span>AdMob ID <span class="required">*</span></span><input type="text" class="input-field" name="field6" value="" /></label>
+						<label for="field2"><span>Link to ads.txt <span class="required">*</span></span><input type="text" class="input-field" name="field6" value="" /></label>
+						<label for="field4"><span>Inventory Type</span><select name="field4" class="select-field">
+						<option value="<1M">Banner</option>
+						<option value="1m+">Video</option>
+						<option value="10m+">Other</option>
+						</select></label>
+						<label for="field4"><span>Monthly Volume</span><select name="field4" class="select-field">
+						<option value="<1M">Less than 1M</option>
+						<option value="1m+">Over 1M</option>
+						<option value="10m+">Over 10M</option>
+						</select></label>
+						</form>
+						<label><p>Top Geo's</p></label>
+						 <input type="radio"span> EMEA
+						 <input type="radio" span> APAC
+						 <input type="radio" span> NTAM
+						 <input type="radio"span> LATAM
+					</div>
+			</div>
+		</div> <!-- end of onboarding wrap -->
+		<div id="contact-details-header"><p></p></div>
+		<div id="inventory-quality-wrap">
+			<p>PubMatic has a 100% whitelisting policy for all inventory monetized on our platform. Use the template below to fill out the domains you'd like to monetize for PubMatic and we'll automatically complete our inventory quality checks before automatically whitelisting all appropriate inventory.</p><br>
+			<p>Click on the "Choose File" button to upload a file:</p>
+
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
+		</div>
+	</div> <!--end page wrap --> 
+
+</body>
+</html>
